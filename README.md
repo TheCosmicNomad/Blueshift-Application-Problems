@@ -5,6 +5,7 @@
 #### Time Spent
 ~ 40 minutes
 - Most of this time was spent making sure that I had covered all bases on the error checking.
+- The reason this was pushed with a large timegap is because I had forgotten to commit the last of the changes before writing this markdown
 
 #### Assumptions/Tradeoffs
 - Assumption 1: Using a Calculator class was desired by SOLID principles.
@@ -19,6 +20,7 @@ The only way I can think that code changes could be minimised further is by usin
 #### Time Spent
 ~ 10 minutes
 - This was extremely straight-forward as there was no interaction from a user perspective, so no need to handle values based on user error.
+- The reason this was pushed with a large timegap is because I had forgotten to commit the last of the changes before writing this markdown
 
 #### Assumptions/Tradeoffs
 - Assumption 1: The formulae were required to be implemented manually. The first formula could very easily be implemented using LINQ's .Take and .Average.
