@@ -4,13 +4,10 @@
     {
         public static void Main()
         {
-            Calculator c = new Calculator();
-            // This dictionary/hash table is to give calculation functions a unique string identifier to enhance expandability
-            
+            Calculator c = new Calculator();            
 
             while (true)
             {
-                // Display a list of the modes from the Dictionary/HashTable
                 Console.WriteLine(@"Please enter an calculation mode from the following list: ");
                 foreach (var item in c.GetAllModes())
                 {
