@@ -49,12 +49,11 @@ namespace Blueshift_Problem2
             float[] s = new float[x.Length];
 
             // find average of first p terms
-            s[0] = 0;
             for (int i = 0; i < p; i++)
             {
                 s[0] += x[i];
             }
-            s[0] /= p;
+            s[0] = Math.Max(s[0] / p, 0);
 
             // use provided formula to calculate the rest of the elements
             for (int i = 1; i < s.Length; i++)
